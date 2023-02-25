@@ -25,18 +25,6 @@
   --tw-content: '';
 }
 
-/*css3 design scrollbar*/
-::-webkit-scrollbar { width: 5px; height: 0px;}
-
-/* ::-webkit-scrollbar-track { background: gray } */
-
-::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background: red;
-}
-
-::-webkit-scrollbar-thumb:hover { background: blueviolet; }
-
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -46,9 +34,6 @@
 */
 
 html {
-  /* Smoots scrooll */
-  scroll-behavior: smooth;
-  /* /Smoots scrooll */
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -737,86 +722,3 @@ video {
   }
 }
 
-/* ------------------------------------------- *\
-                  style Portofolio
-\* ------------------------------------------- */
-
-.portofolio {
-    height: 87vh;
-}
-
-section .Judul {
-  font-size: 50px;
-  font-weight: bold;
-  color: rgb(85, 78, 114);
-}
-
-section h2 .sub-judul {
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(226, 0, 0);
-}
-
-.main-card {
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  width: 80%;
-  height: 250px;
-}
-
-.card {
-  background-color: #fff;
-  border-radius: 15px;
-  height: 250px;
-  box-shadow: 3px 4px 13px 3px rgb(184 180 184 / 20%);
-  padding: 20px;
-  line-height: 2;
-  overflow: hidden;
-}
-
-.img-card {
-  display: flex;
-}
-.img-profile {
-  height: 40px;
-  border: 2px solid rgb(228, 223, 223);
-  border-radius: 50%;
-  box-shadow: 1px 1px 13px 3px rgb(184 180 184 / 20%);
-}
-
-p span {
-  color: red;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.tgl {
-  font-size: 12px;
-  padding-bottom: 15px;
-}
-
-.w-5 {
-  width: 20px;
-}
-
-.star-yellow {
-  color: gold;
-}
-
-.star-gray {
-  color: gray;
-}
-
-.komentar {
-  margin-top: 10px;
-  height: 70px;
-  overflow: scroll;
-}
-
-/* ------------------------------------------- *\
-                  /style Portofolio
-\* ------------------------------------------- */
